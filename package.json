@@ -4,5 +4,8 @@
   "repository": "git@github.com:mackiedrew/better-app.git",
   "author": "Mackie Drew <mackiedrew@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "husky": "0.14.3"
+  }
 }
