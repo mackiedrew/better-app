@@ -10,6 +10,7 @@
     "ios": "react-native run-ios",
     "android": "react-native run-android",
     "test": "jest",
+    "devtools": "react-devtools",
     "clear-cache": "watchman watch-del-all && rm -rf /tmp/metro-bundler-cache-* && rm -rf node_modules && yarn && rm -rf ios/build && rm -rf android/build",
     "commitmsg": "./scripts/commitFormat.js $GIT_PARAMS"
   },
@@ -20,8 +21,10 @@
   "devDependencies": {
     "babel-jest": "22.4.4",
     "babel-preset-react-native": "4.0.0",
+    "flow-bin": "0.72.0",
     "husky": "0.14.3",
     "jest": "22.4.4",
+    "react-devtools": "3.2.1",
     "react-test-renderer": "16.3.1"
   }
 }
