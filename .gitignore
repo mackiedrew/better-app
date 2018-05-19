@@ -48,3 +48,6 @@ buck-out/
 
 # VSCode
 .vscode/.react
+
+# Testing
+coverage/
