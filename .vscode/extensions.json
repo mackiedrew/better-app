@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "azemoh.one-monokai",
+    "timonwong.shellcheck",
+    "streetsidesoftware.code-spell-checker",
+    "file-icons.file-icons",
+    "oderwat.indent-rainbow",
+    "2gua.rainbow-brackets",
+    "dbaeumer.vscode-eslint",
+    "shinnn.stylelint"
+  ]
+}
