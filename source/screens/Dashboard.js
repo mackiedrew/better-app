@@ -1,4 +1,3 @@
-/* @flow */
 import React, { Component } from "react"
 import styled from "styled-components/native"
 
@@ -18,8 +17,7 @@ const BigText = styled.Text`
   margin-bottom: 5px;
 `
 
-type Props = {}
-export default class extends Component<Props> {
+export default class extends Component {
   render = () => (
     <Dashboard>
       <BigText>{title}</BigText>
