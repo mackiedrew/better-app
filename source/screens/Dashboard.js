@@ -1,11 +1,10 @@
 /* @flow */
-
 import React, { Component } from "react"
 import styled from "styled-components/native"
 
-const instructions = "Press Cmd+R to reload,\nCmd+D or shake for dev menu"
+const title = "Dashboard"
 
-const AppContainer = styled.View`
+const Dashboard = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -22,8 +21,8 @@ const BigText = styled.Text`
 type Props = {}
 export default class extends Component<Props> {
   render = () => (
-    <AppContainer>
-      <BigText>{instructions}</BigText>
-    </AppContainer>
+    <Dashboard>
+      <BigText>{title}</BigText>
+    </Dashboard>
   )
 }
