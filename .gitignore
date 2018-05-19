@@ -45,3 +45,6 @@ buck-out/
 
 # Bundle Artifact
 *.jsbundle
+
+# VSCode
+.vscode/.react

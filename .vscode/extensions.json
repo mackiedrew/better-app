@@ -8,6 +8,7 @@
     "2gua.rainbow-brackets",
     "dbaeumer.vscode-eslint",
     "shinnn.stylelint",
-    "flowtype.flow-for-vscode"
+    "flowtype.flow-for-vscode",
+    "vsmobile.vscode-react-native"
   ]
 }

@@ -22,6 +22,12 @@ brew install yarn
 brew install watchman
 ```
 
+4. Install flow with:
+
+```bash
+yarn global add flow-bin
+```
+
 ## Commit Messages
 
 Commits should be as small as possible, atomic commits are highly recommended. Commits do not need to be feature-complete but should all be operational. If work-in-progress (WIP) commits are created they should be squashed or renamed with an interactive rebase.
