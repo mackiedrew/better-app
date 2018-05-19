@@ -9,6 +9,7 @@
     "dbaeumer.vscode-eslint",
     "shinnn.stylelint",
     "vsmobile.vscode-react-native",
-    "jpoissonnier.vscode-styled-components"
+    "jpoissonnier.vscode-styled-components",
+    "vscjava.vscode-java-pack"
   ]
 }
