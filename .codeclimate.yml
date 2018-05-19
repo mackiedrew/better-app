@@ -14,7 +14,7 @@ plugins:
   git-legal:
     enabled: false
   markdownlint:
-    enabled: true
+    enabled: false
   nodesecurity:
     enabled: true
   pep8:
