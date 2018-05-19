@@ -1,2 +1,6 @@
 # System Files
 .DS_Store
+
+# Node Artifacts
+node_modules/
+package-lock.json
