@@ -5,6 +5,9 @@
   "author": "Mackie Drew <mackiedrew@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "commitmsg": "./scripts/commitFormat.js $GIT_PARAMS"
+  },
   "devDependencies": {
     "husky": "0.14.3"
   }
