@@ -12,7 +12,7 @@ plugins:
   csslint:
     enabled: true
   git-legal:
-    enabled: true
+    enabled: false
   markdownlint:
     enabled: true
   nodesecurity:
