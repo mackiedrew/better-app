@@ -12,8 +12,9 @@
     "lint": "eslint .",
     "test": "jest",
     "coverage": "yarn test --coverage",
-    "prepush": "yarn lint && yarn test",
+    "precommit": "lint-staged && yarn test --lastCommit",
     "commitmsg": "./scripts/commitFormat.js $GIT_PARAMS",
+    "prepush": "yarn lint && yarn test",
     "devtools": "react-devtools",
     "clear-cache": "watchman watch-del-all && rm -rf /tmp/metro-bundler-cache-* && rm -rf node_modules && yarn && rm -rf ios/build && rm -rf android/build"
   },
@@ -39,8 +40,15 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "6.3.1",
     "husky": "0.14.3",
     "jest": "22.4.4",
+    "lint-staged": "7.1.1",
     "prettier": "1.12.1",
     "react-devtools": "3.2.1",
     "react-test-renderer": "16.3.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
