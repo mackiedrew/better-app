@@ -14,7 +14,7 @@ class TestComponent extends Component {
 
 describe("withTheme", () => {
   it("works with a passed theme", () => {
-    const ThemeProvider = withThemeProvider(ParentComponent)
+    const ThemeProvider = withThemeProvider(palette)(ParentComponent)
     const ThemeConsumer = withTheme(TestComponent)
     const result = Renderer.create(
       <ThemeProvider>
