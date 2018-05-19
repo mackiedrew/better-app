@@ -1,22 +1,25 @@
 import React, { Component } from "react"
 import styled from "styled-components/native"
 
+import withTheme from "../containers/withTheme"
+import style from "../helpers/getStyle"
+
 const title = "Dashboard"
 
 const Dashboard = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: #f5fcff;
+  ${props => style("background-color", "theme.color.white", props)};
 `
 
 const BigText = styled.Text`
   text-align: center;
-  color: #333333;
-  font-size: 20px;
-  margin-bottom: 5px;
+  ${props => style("color", "theme.color.black", props)};
+  ${props => style("font-size", "theme.fontSize.extraLarge", props)};
 `
 
+@withTheme
 export default class extends Component {
   render = () => (
     <Dashboard>

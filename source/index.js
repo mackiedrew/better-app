@@ -1,12 +1,15 @@
-import { Component } from "react"
+import { PureComponent } from "react"
+import PropTypes from "prop-types"
 import { Navigation } from "react-native-navigation"
 
-import Dashboard from "./screens/Dashboard"
+import screens from "./screens"
 
-export const App = class extends Component {
+export class App extends PureComponent {
+  static propTypes = { screens: PropTypes.object }
+  static defaultProps = { screens: [] }
   constructor(props) {
     super(props)
-    Navigation.registerComponent("better-app.dashboard", () => Dashboard)
+    this.registerScreens(this.props.screens)
     Navigation.startTabBasedApp({
       tabs: [
         {
@@ -19,13 +22,17 @@ export const App = class extends Component {
         {
           label: "Settings",
           title: "Settings",
-          screen: "better-app.dashboard",
+          screen: "better-app.settings",
           // eslint-disable-next-line import/no-unresolved
           icon: require("../assets/icons/settings.png"),
         },
       ],
     })
   }
+  registerScreens = screensToRegister =>
+    Object.entries(screensToRegister).forEach(([key, Screen]) =>
+      Navigation.registerComponent(key, () => Screen),
+    )
 }
 
-export default new App()
+export default new App({ screens })
