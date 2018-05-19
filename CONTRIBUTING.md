@@ -16,6 +16,12 @@ To work on the App on both Android and iOS you'll need I'm afraid you'll need OS
 brew install yarn
 ```
 
+3. Also install [Watchman](https://facebook.github.io/watchman/docs/install.html):
+
+```bash
+brew install watchman
+```
+
 ## Commit Messages
 
 Commits should be as small as possible, atomic commits are highly recommended. Commits do not need to be feature-complete but should all be operational. If work-in-progress (WIP) commits are created they should be squashed or renamed with an interactive rebase.
