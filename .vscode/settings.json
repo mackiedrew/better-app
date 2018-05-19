@@ -2,13 +2,21 @@
   "cSpell.words": [
     "Gitmoji",
     "Mackie",
+    "azemoh",
     "bento",
     "commitmsg",
     "gmail",
     "hankey",
     "iphone",
     "mackiedrew",
+    "oderwat",
     "rebased",
+    "shellcheck",
     "tada"
-  ]
+  ],
+  "editor.tabSize": 2,
+  "javascript.validate.enable": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
