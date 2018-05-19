@@ -27,7 +27,7 @@
     ],
     "max-lines": ["error", { "max": 250, "skipBlankLines": true, "skipComments": true }],
     "max-statements": ["warn", { "max": 25 }],
-    "max-params": ["error", { "max": 3 }],
+    "max-params": ["error", { "max": 4 }],
     "max-nested-callbacks": ["error", { "max": 4 }],
     "max-depth": ["warn", { "max": 4 }],
     "complexity": ["error", { "max": 5 }],
