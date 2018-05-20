@@ -1,4 +1,11 @@
-jest.mock("react-native-navigation")
+jest.mock("react-native-navigation", () => ({
+  Navigation: {
+    startTabBasedApp: jest.fn(),
+    registerComponent: jest.fn((key, Component) => {
+      Component()()
+    }),
+  },
+}))
 jest.mock("../reduxStore")
 jest.mock("../containers/withProviders", () => () => () => {})
 
@@ -22,8 +29,9 @@ describe("App Index", () => {
     reduxStore.mockRestore()
   })
   it("when instantiated calls appropriate registration components", () => {
-    new App({ screens: [1, 2, 3] })
+    const testComponent = jest.fn()
+    new App({ screens: { screen1: testComponent, screen2: testComponent } })
     expect(Navigation.startTabBasedApp.mock.calls.length).toBe(1)
-    expect(Navigation.registerComponent.mock.calls.length).toBe(3)
+    expect(Navigation.registerComponent.mock.calls.length).toBe(2)
   })
 })
