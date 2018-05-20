@@ -9,10 +9,10 @@ export default {
     blueGreen: "#ADD2C2",
   },
   fontSize: {
-    extraSmall: "10px",
+    extraSmall: "8px",
     small: "12px",
-    medium: "14px",
-    large: "16px",
-    extraLarge: "18px",
+    medium: "16px",
+    large: "20px",
+    extraLarge: "24px",
   },
 }
