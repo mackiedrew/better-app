@@ -2,6 +2,8 @@ import { PureComponent } from "react"
 import PropTypes from "prop-types"
 import { Navigation } from "react-native-navigation"
 
+import withProviders from "./containers/withProviders"
+
 import screens from "./screens"
 
 export class App extends PureComponent {
@@ -31,7 +33,7 @@ export class App extends PureComponent {
   }
   registerScreens = screensToRegister =>
     Object.entries(screensToRegister).forEach(([key, Screen]) =>
-      Navigation.registerComponent(key, () => Screen),
+      Navigation.registerComponent(key, () => withProviders(Screen)),
     )
 }
 

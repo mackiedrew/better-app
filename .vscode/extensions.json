@@ -10,6 +10,7 @@
     "shinnn.stylelint",
     "vsmobile.vscode-react-native",
     "jpoissonnier.vscode-styled-components",
-    "vscjava.vscode-java-pack"
+    "vscjava.vscode-java-pack",
+    "mikestead.dotenv"
   ]
 }

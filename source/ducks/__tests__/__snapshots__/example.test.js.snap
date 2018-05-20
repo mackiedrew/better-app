@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`example action creators addExample 1`] = `
+Object {
+  "type": "example/ADD",
+}
+`;
+
+exports[`example action creators resetExample 1`] = `
+Object {
+  "type": "example/RESET",
+}
+`;
+
+exports[`example action creators subtractExample 1`] = `
+Object {
+  "type": "example/SUBTRACT",
+}
+`;
+
+exports[`example reducer should handle ADD 1`] = `
+Object {
+  "value": 1,
+}
+`;
+
+exports[`example reducer should handle RESET 1`] = `
+Object {
+  "value": 0,
+}
+`;
+
+exports[`example reducer should handle SUBTRACT 1`] = `
+Object {
+  "value": -1,
+}
+`;
+
+exports[`example reducer should handle empty action 1`] = `
+Object {
+  "value": 0,
+}
+`;
+
+exports[`example reducer should handle no action 1`] = `
+Object {
+  "value": 0,
+}
+`;

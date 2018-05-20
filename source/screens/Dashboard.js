@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components/native"
 
-import withTheme from "../containers/withTheme"
 import style from "../helpers/getStyle"
 
 const title = "Dashboard"
@@ -19,7 +18,6 @@ const BigText = styled.Text`
   ${props => style("font-size", "theme.fontSize.extraLarge", props)};
 `
 
-@withTheme
 export default class extends Component {
   render = () => (
     <Dashboard>

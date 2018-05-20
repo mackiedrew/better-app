@@ -19,11 +19,14 @@
     "clear-cache": "watchman watch-del-all && rm -rf /tmp/metro-bundler-cache-* && rm -rf node_modules && yarn && rm -rf ios/build && rm -rf android/build"
   },
   "dependencies": {
-    "get-value": "^3.0.1",
+    "get-value": "3.0.1",
     "prop-types": "15.6.1",
     "react": "16.3.1",
     "react-native": "0.55.4",
     "react-native-navigation": "1.1.462",
+    "react-redux": "5.0.7",
+    "recompose": "0.27.0",
+    "redux": "4.0.0",
     "styled-components": "3.2.6"
   },
   "devDependencies": {
@@ -47,7 +50,9 @@
     "lint-staged": "7.1.1",
     "prettier": "1.12.1",
     "react-devtools": "3.2.1",
-    "react-test-renderer": "16.3.1"
+    "react-native-dotenv": "0.1.1",
+    "react-test-renderer": "16.3.1",
+    "redux-logger": "3.0.6"
   },
   "lint-staged": {
     "*.js": [
