@@ -28,6 +28,7 @@
     "precommit",
     "prepush",
     "rebased",
+    "rnpm",
     "shellcheck",
     "storyshots",
     "stylelint",

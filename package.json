@@ -68,5 +68,10 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   }
 }

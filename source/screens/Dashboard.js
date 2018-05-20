@@ -2,10 +2,11 @@ import React, { Component } from "react"
 import { pure, compose } from "recompose"
 import PropTypes from "prop-types"
 
+import { withCopy } from "../containers/withCopy"
+
 import Screen from "../templates/Screen"
 import Title from "../atoms/Title"
-import { withCopy } from "../containers/withCopy"
-import TextInput from "../atoms/TextInput"
+import LabelledTextInput from "../molecules/LabelledTextInput"
 
 export default compose(pure, withCopy)(
   class extends Component {
@@ -19,7 +20,8 @@ export default compose(pure, withCopy)(
     render = () => (
       <Screen>
         <Title>{this.props.copy.title.dashboard}</Title>
-        <TextInput />
+        <LabelledTextInput label="User Name" />
+        <LabelledTextInput label="Password" />
       </Screen>
     )
   },

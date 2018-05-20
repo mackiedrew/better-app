@@ -31,6 +31,9 @@ export class App extends PureComponent {
           navigatorStyle: { navBarHidden: true },
         },
       ],
+      appStyle: {
+        forceTitlesDisplay: true,
+      },
     })
   }
   registerScreens = screensToRegister =>

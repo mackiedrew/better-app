@@ -1,6 +1,6 @@
 export default {
   color: {
-    white: "#F5FCFF",
+    white: "#FFFFFF",
     black: "#333333",
     orange: "#D3B485",
     yellow: "#F7EF81",
@@ -8,17 +8,38 @@ export default {
     green: "#A7D3A6",
     blueGreen: "#ADD2C2",
   },
+  fontFamily: {
+    title: {
+      regular: "PTSans-Regular",
+      bold: "PTSans-Bold",
+      italic: "PTSans-Italic",
+      boldItalic: "PTSans-BoldItalic",
+    },
+    body: {
+      light: "OpenSans-Light",
+      lightItalic: "OpenSans-LightItalic",
+      regular: "OpenSans-Regular",
+      semiBold: "OpenSans-SemiBold",
+      semiBoldItalic: "OpenSans-SemiBoldItalic",
+      bold: "OpenSans-Bold",
+      italic: "OpenSans-Italic",
+      boldItalic: "OpenSans-BoldItalic",
+      extraBold: "OpenSans-ExtraBold",
+      extraBoldItalic: "OpenSans-ExtraBoldItalic",
+    },
+  },
   fontSize: {
     extraSmall: "8px",
     small: "12px",
     medium: "16px",
-    large: "20px",
-    extraLarge: "24px",
+    large: "24px",
+    extraLarge: "30px",
   },
   spacing: {
     small: "5px",
     medium: "10px",
-    large: "15px",
-    extraLarge: "20px",
+    large: "20px",
+    extraLarge: "30px",
   },
+  divider: "1px",
 }
