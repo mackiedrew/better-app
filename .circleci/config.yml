@@ -11,7 +11,7 @@ jobs:
       - image: circleci/node:8
     steps:
       - checkout
-  app:
+  testing:
     docker:
       - image: circleci/node:8
     steps:
@@ -39,9 +39,9 @@ jobs:
 workflows:
   version: 2
 
-  build-and-test:
+  clone-and-test:
     jobs:
       - clone
-      - app:
+      - testing:
           requires:
             - clone
