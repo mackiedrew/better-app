@@ -15,4 +15,10 @@ export default {
     large: "20px",
     extraLarge: "24px",
   },
+  spacing: {
+    small: "5px",
+    medium: "10px",
+    large: "15px",
+    extraLarge: "20px",
+  },
 }

@@ -5,6 +5,7 @@ import PropTypes from "prop-types"
 import Screen from "../templates/Screen"
 import Title from "../atoms/Title"
 import { withCopy } from "../containers/withCopy"
+import TextInput from "../atoms/TextInput"
 
 export default compose(pure, withCopy)(
   class extends Component {
@@ -18,6 +19,7 @@ export default compose(pure, withCopy)(
     render = () => (
       <Screen>
         <Title>{this.props.copy.title.dashboard}</Title>
+        <TextInput />
       </Screen>
     )
   },

@@ -20,6 +20,7 @@ export class App extends PureComponent {
           screen: "better-app.dashboard",
           // eslint-disable-next-line import/no-unresolved
           icon: require("../assets/icons/dashboard.png"),
+          navigatorStyle: { navBarHidden: true },
         },
         {
           label: "Settings",
@@ -27,6 +28,7 @@ export class App extends PureComponent {
           screen: "better-app.settings",
           // eslint-disable-next-line import/no-unresolved
           icon: require("../assets/icons/settings.png"),
+          navigatorStyle: { navBarHidden: true },
         },
       ],
     })
