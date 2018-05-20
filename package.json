@@ -26,7 +26,7 @@
     "react-native": "0.55.4",
     "react-native-navigation": "1.1.462",
     "react-redux": "5.0.7",
-    "recompose": "0.27.0",
+    "recompose": "0.27.1",
     "redux": "4.0.0",
     "styled-components": "3.2.6"
   },

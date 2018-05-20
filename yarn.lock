@@ -504,7 +504,7 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@storybook/addon-actions@3.4.5", "@storybook/addon-actions@^3.4.5":
+"@storybook/addon-actions@3.4.5":
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.4.5.tgz#ba0d0c0c74357c0852e0b890b404214975df40a8"
   dependencies:
@@ -519,7 +519,7 @@
     react-inspector "^2.2.2"
     uuid "^3.2.1"
 
-"@storybook/addon-links@3.4.5", "@storybook/addon-links@^3.4.5":
+"@storybook/addon-links@3.4.5":
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-3.4.5.tgz#c885dae976f5084faa0ae026755f2d6068da034f"
   dependencies:
@@ -528,7 +528,7 @@
     global "^4.3.2"
     prop-types "^15.6.1"
 
-"@storybook/addon-storyshots@^3.4.5":
+"@storybook/addon-storyshots@3.4.5":
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-3.4.5.tgz#e67b57657f76a024a40b21862281952410118283"
   dependencies:
@@ -542,7 +542,7 @@
     puppeteer "^1.2.0"
     read-pkg-up "^3.0.0"
 
-"@storybook/addons@3.4.5", "@storybook/addons@^3.4.5":
+"@storybook/addons@3.4.5":
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.4.5.tgz#8dd6eb93ae26b4498a9b1e2b890316944efa41da"
 
@@ -640,7 +640,7 @@
     lodash.pick "^4.4.0"
     shallowequal "^0.2.2"
 
-"@storybook/react-native@^3.4.5":
+"@storybook/react-native@3.4.5":
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/react-native/-/react-native-3.4.5.tgz#cdd859ae26dbb87f648060d1ad21902f5e9232bd"
   dependencies:
@@ -1133,7 +1133,7 @@ babel-code-frame@6.26.0, babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@^6.0.0, babel-core@^6.24.1, babel-core@^6.26.0, babel-core@^6.26.3, babel-core@^6.7.2:
+babel-core@6.26.3, babel-core@^6.0.0, babel-core@^6.24.1, babel-core@^6.26.0, babel-core@^6.7.2:
   version "6.26.3"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
   dependencies:
@@ -2099,7 +2099,7 @@ babel-register@^6.24.1, babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@6.x.x, babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.26.0, babel-runtime@^6.5.0:
+babel-runtime@6.26.0, babel-runtime@6.x.x, babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.26.0, babel-runtime@^6.5.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -8224,9 +8224,9 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recompose@0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.27.0.tgz#8230ebd651bf1159097006f79083fe224b1501cf"
+recompose@0.27.1:
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.27.1.tgz#1a49e931f183634516633bbb4f4edbfd3f38a7ba"
   dependencies:
     babel-runtime "^6.26.0"
     change-emitter "^0.1.2"
