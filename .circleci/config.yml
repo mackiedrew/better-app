@@ -1,0 +1,47 @@
+version: 2
+
+defaults: &defaults
+  docker:
+    - image: circleci/node:8
+
+jobs:
+  clone:
+    <<: *defaults
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+  app:
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - restore_cache:
+          name : Restore node modules Cache
+          key: npm-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install node modules
+          command: yarn
+      - save_cache:
+          name: Save node modules cache
+          key: npm-cache-{{ checksum "package.json" }}
+          paths:
+            - 'node_modules'
+
+      # Tests
+      - run:
+          name: Check for Linting Errors
+          command: yarn lint
+      - run:
+          name: Run Unit Tests
+          command: yarn test
+
+workflows:
+  version: 2
+
+  build-and-test:
+    jobs:
+      - clone
+      - app:
+          requires:
+            - clone
