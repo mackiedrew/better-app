@@ -1,5 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Screens Dashboard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#333333",
+          "fontSize": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    Dashboard
+  </Text>
+</View>
+`;
+
 exports[`Storyshots Title with emoji 1`] = `
 <Text
   accessible={true}
