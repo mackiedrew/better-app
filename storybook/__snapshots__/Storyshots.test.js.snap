@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Title with emoji 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+        "fontSize": 24,
+      },
+      undefined,
+    ]
+  }
+>
+  😀 😎 👍 💯
+</Text>
+`;
+
+exports[`Storyshots Title with long text 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+        "fontSize": 24,
+      },
+      undefined,
+    ]
+  }
+>
+  Some Title That Is Clearly Overly Long, Its A Fair Test Though to See How Adaptive This Is
+</Text>
+`;
+
+exports[`Storyshots Title with no text 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+        "fontSize": 24,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Storyshots Title with short text 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+        "fontSize": 24,
+      },
+      undefined,
+    ]
+  }
+>
+  Some Title
+</Text>
+`;
