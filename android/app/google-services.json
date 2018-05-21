@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1026394435546",
+    "firebase_url": "https://better-app-4321.firebaseio.com",
+    "project_id": "better-app-4321",
+    "storage_bucket": "better-app-4321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026394435546:android:6c3a9e3a527395fc",
+        "android_client_info": {
+          "package_name": "com.betterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026394435546-483k8gjev55sp7f51mmo08hglqn5df8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betterapp",
+            "certificate_hash": "14d961e14b768f1403e1517b116d6ddaf8346d73"
+          }
+        },
+        {
+          "client_id": "1026394435546-747jkgabsbna29laba3vquah4fjb8u4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwZxkgJPsCwbsPfy3Y3B8eLxhayfIHHkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026394435546-747jkgabsbna29laba3vquah4fjb8u4o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1026394435546-lt9um2rfhjc87de1um2n1jddg9g4alk9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ca.betterapp",
+                "app_store_id": "1387299903"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

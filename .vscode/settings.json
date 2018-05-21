@@ -8,12 +8,14 @@
     "Mackie",
     "UIHMR",
     "Uncomment",
+    "appspot",
     "appstore",
     "azemoh",
     "bento",
     "betterapp",
     "buckd",
     "camelcase",
+    "cocoapods",
     "commitmsg",
     "cond",
     "cumul",
@@ -26,6 +28,7 @@
     "jsbundle",
     "keystore",
     "mackiedrew",
+    "mobilesdk",
     "oderwat",
     "pbxuser",
     "perspectivev",
@@ -53,5 +56,6 @@
   "javascript.validate.enable": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "java.configuration.updateBuildConfiguration": "disabled"
 }

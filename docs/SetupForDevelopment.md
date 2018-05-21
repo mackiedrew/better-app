@@ -23,8 +23,8 @@ brew install yarn
 brew install watchman
 ```
 
-0. Install flow with:
+0. Install Cocoapods:
 
 ```bash
-yarn global add flow-bin
+sudo gem install cocoapods
 ```
