@@ -7,6 +7,7 @@ export default {
     lemonGreen: "#CFE795",
     green: "#A7D3A6",
     blueGreen: "#ADD2C2",
+    error: "#CC0000",
   },
   fontFamily: {
     title: {
@@ -42,4 +43,5 @@ export default {
     extraLarge: "30px",
   },
   divider: "1px",
+  roundCorners: "15px",
 }
