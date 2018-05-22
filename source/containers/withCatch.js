@@ -1,20 +1,9 @@
 import React, { Component } from "react"
-import PropTypes from "prop-types"
+
+import { crashlytics } from "../firebase"
 
 export default (ErrorComponent, errorMessage) => Child =>
   class extends Component {
-    static propTypes = {
-      crashlytics: PropTypes.shape({
-        log: PropTypes.func.isRequired,
-        recordError: PropTypes.func.isRequired,
-      }).isRequired,
-    }
-    static defaultProps = {
-      crashlytics: {
-        log: Function.prototype,
-        recordError: Function.prototype,
-      },
-    }
     constructor(props) {
       super(props)
       this.state = {
@@ -24,9 +13,9 @@ export default (ErrorComponent, errorMessage) => Child =>
       }
     }
     componentDidCatch = (error, info) => {
-      this.props.crashlytics.log(error)
-      this.props.crashlytics.log(info)
-      this.props.crashlytics.recordError(1, "withCatch")
+      crashlytics.log(error)
+      crashlytics.log(info)
+      crashlytics.recordError(1, "withCatch")
       /* eslint-disable-next-line react/no-set-state */
       this.setState(() => ({
         hasError: true,

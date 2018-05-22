@@ -88,6 +88,68 @@ exports[`Storyshots Form Unlabelled Text 1`] = `
 />
 `;
 
+exports[`Storyshots GeneralError with no provided message 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#CC0000",
+        "borderRadius": 15,
+        "color": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "fontFamily": "OpenSans-ExtraBold",
+        "fontSize": 30,
+        "overflow": "hidden",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+        "textAlign": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  Error!
+</Text>
+`;
+
+exports[`Storyshots GeneralError with provided message 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#CC0000",
+        "borderRadius": 15,
+        "color": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "fontFamily": "OpenSans-ExtraBold",
+        "fontSize": 30,
+        "overflow": "hidden",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+        "textAlign": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  Something Specific...
+</Text>
+`;
+
 exports[`Storyshots Screens Dashboard 1`] = `
 <RCTScrollView
   style={

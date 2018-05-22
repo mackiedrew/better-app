@@ -9,6 +9,7 @@ jest.mock("../withRedux")
 jest.mock("../withTheme")
 jest.mock("../withCopy")
 jest.mock("../withSafeArea")
+jest.mock("react-native-firebase", () => ({ analytics: jest.fn(), crashlytics: jest.fn() }))
 
 import React from "react"
 import { compose } from "recompose"

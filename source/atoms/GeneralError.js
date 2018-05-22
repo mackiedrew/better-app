@@ -5,10 +5,8 @@ import styled from "styled-components/native"
 import style from "../helpers/getStyle"
 import { withCopy } from "../containers/withCopy"
 
-const CrashMessage = styled.Text`
+const ErrorMessage = styled.Text`
   flex: 1;
-  width: 100%;
-  height: 100%;
   text-align: center;
   overflow: hidden;
   ${props => style("padding", "theme.spacing.large", props)};
@@ -23,13 +21,18 @@ const CrashMessage = styled.Text`
 export default class extends Component {
   static propTypes = {
     copy: PropTypes.shape({
-      basicCrash: PropTypes.string.isRequired,
+      generalError: PropTypes.string.isRequired,
     }).isRequired,
+    errorMessage: PropTypes.string,
   }
   static defaultProps = {
     copy: {
       basicCrash: "",
     },
   }
-  render = () => <CrashMessage>{this.props.copy.basicCrash}</CrashMessage>
+  render = () => (
+    <ErrorMessage>
+      {this.props.errorMessage ? this.props.errorMessage : this.props.copy.generalError}
+    </ErrorMessage>
+  )
 }

@@ -13,6 +13,7 @@ import com.facebook.soloader.SoLoader;
 
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -29,7 +30,8 @@ public class MainApplication extends NavigationApplication {
     // No need to add RnnPackage and MainReactPackage
     return Arrays.<ReactPackage>asList(
       new RNFirebasePackage(),
-      new RNFirebaseCrashlyticsPackage()
+      new RNFirebaseCrashlyticsPackage(),
+      new RNFirebaseAnalyticsPackage()
     );
   }
 

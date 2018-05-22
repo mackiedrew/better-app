@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withCatch matches snapshots with ErrorComponent 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Test
+</Text>
+`;
+
+exports[`withCatch matches snapshots with ErrorComponent and a throw 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Test
+</Text>
+`;
+
+exports[`withCatch matches snapshots with ErrorComponent and errorMessage 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Error
+</Text>
+`;
+
+exports[`withCatch matches snapshots with ErrorComponent and errorMessage and a throw 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Error
+</Text>
+`;
