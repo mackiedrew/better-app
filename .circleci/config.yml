@@ -2,18 +2,18 @@ version: 2
 
 defaults: &defaults
   docker:
-    - image: circleci/node:8@sha256:fbb00f61f4c5b0d4406e327741b1cacd3409eba7497a964b159828ff8690bc30
+    - image: circleci/node:8@sha256:1e690152972e8cf260fa22228a08c174853dc908767d9b40d1fbfdd7f5bdff23
 
 jobs:
   clone:
     <<: *defaults
     docker:
-      - image: circleci/node:8@sha256:fbb00f61f4c5b0d4406e327741b1cacd3409eba7497a964b159828ff8690bc30
+      - image: circleci/node:8@sha256:1e690152972e8cf260fa22228a08c174853dc908767d9b40d1fbfdd7f5bdff23
     steps:
       - checkout
   testing:
     docker:
-      - image: circleci/node:8@sha256:fbb00f61f4c5b0d4406e327741b1cacd3409eba7497a964b159828ff8690bc30
+      - image: circleci/node:8@sha256:1e690152972e8cf260fa22228a08c174853dc908767d9b40d1fbfdd7f5bdff23
     steps:
       - checkout
       - restore_cache:
