@@ -7941,22 +7941,22 @@ react-devtools-core@3.1.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-devtools-core@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-3.2.1.tgz#9d170b2b49e66b7426f659895684c72a431145da"
+react-devtools-core@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-3.2.2.tgz#d4101eaf6fc45da320bca52d93cbcf1c8831ba28"
   dependencies:
     shell-quote "^1.6.1"
-    ws "^2.0.3"
+    ws "^3.3.1"
 
-react-devtools@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/react-devtools/-/react-devtools-3.2.1.tgz#cacde35d3a18f2527b5e9f97839a948574d66569"
+react-devtools@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-devtools/-/react-devtools-3.2.2.tgz#6ce02cbb85b1478d7a9dd29f5b2e7f0f654c7578"
   dependencies:
     cross-spawn "^5.0.1"
     electron "~1.4.15"
     ip "^1.1.4"
     minimist "^1.2.0"
-    react-devtools-core "^3.2.1"
+    react-devtools-core "^3.2.2"
     update-notifier "^2.1.0"
 
 react-dom@16.3.2:
@@ -9963,7 +9963,7 @@ ws@^2.0.3:
     safe-buffer "~5.0.1"
     ultron "~1.1.0"
 
-ws@^3.0.0:
+ws@^3.0.0, ws@^3.3.1:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
   dependencies:
