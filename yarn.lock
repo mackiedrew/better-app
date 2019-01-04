@@ -2793,11 +2793,9 @@ commander@~2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
 
-comment-parser@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-0.4.2.tgz#fa5a3f78013070114866dc7b8e9cf317a9635f74"
-  dependencies:
-    readable-stream "^2.0.4"
+comment-parser@^0.5.1:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-0.5.2.tgz#97366ee0e282289806d9ed7c18f61c1614aa8235"
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -3754,13 +3752,13 @@ eslint-plugin-import@2.12.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-jsdoc@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.7.0.tgz#b7ce206f99efdc4c0a31b492ae5aedfb06f03dc6"
+eslint-plugin-jsdoc@3.15.1:
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.15.1.tgz#b4f2bc12d04c3719c296e2b354147a1c9fe93644"
   dependencies:
-    comment-parser "^0.4.2"
+    comment-parser "^0.5.1"
     jsdoctypeparser "^2.0.0-alpha-8"
-    lodash "^4.17.4"
+    lodash "^4.17.11"
 
 eslint-plugin-prettier@2.6.0:
   version "2.6.0"
@@ -6199,6 +6197,10 @@ lodash@4.x.x, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.3, lodash@^4.17.4, lo
 lodash@^3.5.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
+lodash@^4.17.11:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 log-symbols@^1.0.2:
   version "1.0.2"
