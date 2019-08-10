@@ -3719,9 +3719,9 @@ eslint-module-utils@^2.2.0:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-cumul8@1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cumul8/-/eslint-plugin-cumul8-1.4.3.tgz#2313f9b5363bae41e9223cb116e4095a8b52a9aa"
+eslint-plugin-cumul8@1.4.56:
+  version "1.4.56"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cumul8/-/eslint-plugin-cumul8-1.4.56.tgz#861d7fc34cefe132244d00c48c58d47c3aa8b247"
 
 eslint-plugin-eslint-comments@2.0.2:
   version "2.0.2"
