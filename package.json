@@ -22,15 +22,15 @@
   },
   "dependencies": {
     "get-value": "3.0.1",
-    "prop-types": "15.6.1",
-    "react": "16.3.2",
-    "react-native": "0.55.4",
+    "prop-types": "15.6.2",
+    "react": "16.5.0",
+    "react-native": "0.64.0",
     "react-native-firebase": "4.2.0",
     "react-native-navigation": "1.1.462",
     "react-redux": "5.0.7",
     "recompose": "0.27.1",
     "redux": "4.0.0",
-    "styled-components": "3.2.6"
+    "styled-components": "4.0.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "3.4.5",
